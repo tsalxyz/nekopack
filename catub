@@ -5,20 +5,20 @@ _get_zlink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "goodcat" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RnQ2F0VUIvY2F0dXNlcmJvdC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3RzYWx4eXovY2F0dXNlcmJvdC9hcmNoaXZlL21haW4uemlw=" | base64 -d
     elif [[ $UPSTREAM_REPO == "badcat" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3RzYWx4eXovY2F0dXNlcmJvdC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3RzYWx4eXovY2F0dXNlcmJvdC9hcmNoaXZlL21haW4uemlw=" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
         then
             echo "${UPSTREAM_REPO}/archive/${UPSTREAM_REPO_BRANCH}.zip"
         else
-            echo "${UPSTREAM_REPO}/archive/master.zip"
+            echo "${UPSTREAM_REPO}/archive/main.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3RzYWx4eXovY2F0dXNlcmJvdC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3RzYWx4eXovY2F0dXNlcmJvdC9hcmNoaXZlL21haW4uemlw=" | base64 -d
     fi
 }
 
