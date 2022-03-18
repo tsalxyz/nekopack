@@ -56,6 +56,24 @@
       "value": "Asia/Kolkata",
       "required": false
     },
+    "GITHUB_ACCESS_TOKEN": {
+
+      "description": "Your token github",
+
+      "value": "zhhsbzh",
+
+      "required": false
+
+    },
+    "GIT_REPO_NAME": {
+
+      "description": "Repo github",
+
+      "value": "tsalxyz/catuserbot",
+
+      "required": false
+
+    },
     "UPSTREAM_REPO": {
       "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
       "value": "goodcat",
@@ -82,5 +100,7 @@
     "url": "https://github.com/chrismytton/heroku-buildpack-jq"
   },{
     "url": "heroku/python"
-  }]
+  },{
+    "url": "heroku/nodejs"
+  },}
 }
