@@ -3,6 +3,7 @@
   "description": "A simple Telegram userbot based on Telethon . Maintained by Sandeep ",
   "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
   "keywords": [
+    "py-tgcalls",
     "plugin",
     "modular",
     "productivity"
@@ -100,7 +101,5 @@
     "url": "https://github.com/chrismytton/heroku-buildpack-jq"
   },{
     "url": "heroku/python"
-  },{
-    "url": "heroku/nodejs"
   }]
 }
