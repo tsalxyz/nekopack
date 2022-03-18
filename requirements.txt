@@ -9,6 +9,7 @@ cowpy
 dataclasses
 DateTime
 emoji
+ffmpeg-python
 fonttools
 geopy
 git+https://github.com/yt-dlp/yt-dlp@master
@@ -45,6 +46,7 @@ pylast
 pymediainfo
 PyMuPDF
 pySmartDL
+py-tgcalls
 python-barcode
 python-dotenv
 pytz
@@ -69,8 +71,8 @@ vcsi
 wand
 wget
 youtube_dl
+yt-dlp
 youtube-search
-youtube-search-python==1.4.9
 
 git+https://github.com/sandy1709/Telethon
 git+https://github.com/goldsmith/Wikipedia
