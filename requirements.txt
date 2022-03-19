@@ -15,7 +15,6 @@ ffmpeg-python
 fonttools
 geopy
 git+https://github.com/yt-dlp/yt-dlp@master
-git+https://github.com/heroku/heroku-buildpack-nodejs.git
 gitpython
 glitch_this
 google-api-python-client
