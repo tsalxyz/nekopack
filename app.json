@@ -100,10 +100,10 @@
   },{
     "url": "https://github.com/chrismytton/heroku-buildpack-jq"
   },{
-    "url": "heroku/python"
+    "url": "https://github.com/heroku/node-js-getting-started.git"
   },{
 
-    "url": "heroku/nodejs"
+    "url": "heroku/python"
   }],
   "formation": {
       "worker": {
