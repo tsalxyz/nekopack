@@ -9,6 +9,7 @@ covid
 cowpy
 dataclasses
 DateTime
+dnspython
 emoji
 ffmpeg-python
 fonttools
