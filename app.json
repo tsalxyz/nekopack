@@ -54,7 +54,7 @@
     },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
+      "value": "Asia/Jakarta",
       "required": false
     },
     "GITHUB_ACCESS_TOKEN": {
